@@ -252,7 +252,9 @@ def UniProxyHA(getproxy, movetoproxy):
 	    if otherget[i]['proxyid'] == proxyid:
 
 		for y in range(len(otherget[i]['hosts'])):
+			"""debug option
 			print otherget[i]['hosts'][y]['host']
+			"""
 			
 			if movetoproxy != "":
 				for z in range(len(get)):
