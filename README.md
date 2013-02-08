@@ -1,7 +1,7 @@
 zabbix
 ======
 
-Zabbix Tools:
+Old Zabbix Tools:
 
 * Various functions to use Zabbix Api:
     zbxtool_zabbix_api.py
